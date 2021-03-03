@@ -2,8 +2,7 @@ import React from 'react';
 import './CodeableConceptView.css';
 import { CodingView } from './CodingView';
 
-import Coding from 'fhir-resource-typescript-generator/models/CodeableConcept';
-import CodeableConcept from 'fhir-resource-typescript-generator/models/CodeableConcept';
+import { Coding, CodeableConcept } from 'fhir-resource-typescript-generator/models';
 
 export interface ICodeableConceptViewProps { codeableConcept?: CodeableConcept };
 export function CodeableConceptView(props: ICodeableConceptViewProps) {

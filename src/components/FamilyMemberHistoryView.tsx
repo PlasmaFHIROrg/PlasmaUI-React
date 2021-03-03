@@ -1,9 +1,7 @@
 import React from 'react';
-import FamilyMemberHistory from "fhir-resource-typescript-generator/models/FamilyMemberHistory";
+import { FamilyMemberHistory, FamilyMemberHistory_Condition, CodeableConcept } from "fhir-resource-typescript-generator/models";
 import './FamilyMemberHistoryView.css';
 
-import FamilyMemberHistory_Condition from "fhir-resource-typescript-generator/models/FamilyMemberHistory_Condition";
-import CodeableConcept from "fhir-resource-typescript-generator/models/CodeableConcept";
 import { CodeableConceptView } from "./CodeableConceptView";
 
 export interface IFamilyMemberHistoryViewProps { familyMemberHistory?: FamilyMemberHistory; }
