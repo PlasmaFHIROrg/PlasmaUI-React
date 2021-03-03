@@ -1,5 +1,5 @@
 import React from 'react';
-import Address from './../models/Address';
+import Address from "fhir-resource-typescript-generator/models/Address";
 import './AddressView.css';
 
 export interface IAddressViewProps { address?: Address };

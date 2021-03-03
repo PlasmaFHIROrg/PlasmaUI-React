@@ -1,5 +1,5 @@
 import React from 'react';
-import HumanName from './../models/HumanName';
+import HumanName from 'fhir-resource-typescript-generator/models/HumanName';
 import './HumanNameView.css';
 
 export interface IHumanNameViewProps { humanName?: HumanName };

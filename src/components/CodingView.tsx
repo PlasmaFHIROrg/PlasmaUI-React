@@ -1,5 +1,5 @@
 import React from 'react';
-import Coding from './../models/Coding';
+import Coding from 'fhir-resource-typescript-generator/models/Coding';
 import './CodingView.css';
 
 export interface ICodingViewProps { coding?: Coding };

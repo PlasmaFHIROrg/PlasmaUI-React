@@ -1,5 +1,5 @@
 import React from 'react';
-import AllergyIntolerance from './../models/AllergyIntolerance';
+import AllergyIntolerance from 'fhir-resource-typescript-generator/models/AllergyIntolerance';
 import './AllergyIntoleranceView.css';
 
 import { CodeableConceptView } from './CodeableConceptView';
