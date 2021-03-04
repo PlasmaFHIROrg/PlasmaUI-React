@@ -8,8 +8,8 @@ export function HumanNameView(props: IHumanNameViewProps) {
     if (!props.humanName) { return <div />; }
 
     return (
-        <div>
-            <span>{formatName(props.humanName)}</span>
+        <div className="HumanNameView_container">
+            <span className="HumanNameView_formattedName">{formatName(props.humanName)}</span>
         </div>
     );
 }

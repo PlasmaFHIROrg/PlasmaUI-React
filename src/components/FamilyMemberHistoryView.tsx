@@ -38,7 +38,7 @@ export const FamilyMemberHistoryView: React.FC<IFamilyMemberHistoryViewProps> = 
   }
   
   return (
-    <div>
+    <div className="FamilyMemberHistoryView_container">
         <div><strong>FamilyMemberHistoryView</strong></div>
         {elRelationship} {elSex}
         <br />

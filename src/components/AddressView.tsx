@@ -10,7 +10,7 @@ export function AddressView(props: IAddressViewProps) {
     const elAddress = getAddressLineElement(props.address.line);
     const elCityStateZip = getCityStateZipElement(props.address);
     return (
-        <div>
+        <div className="AddressView_container">
             {elAddress}
             {elCityStateZip}
         </div>
