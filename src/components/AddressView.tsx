@@ -19,7 +19,7 @@ export function AddressView(props: IAddressViewProps) {
 
 // Returns a <div> containing the address lines
 function getAddressLineElement(line?: string | string[]): JSX.Element {
-    if (!line) { return null; }
+    if (!line) { return <div />; }
     if (!Array.isArray(line)) { line = [line]; }
     
     const elLine = line.map((line: string, idx: number) => {
