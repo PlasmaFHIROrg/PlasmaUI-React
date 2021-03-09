@@ -1,0 +1,1 @@
+export { CodingView, ICodingViewProps } from './CodingView';

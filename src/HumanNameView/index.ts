@@ -1,0 +1,1 @@
+export { HumanNameView, IHumanNameViewProps } from './HumanNameView';

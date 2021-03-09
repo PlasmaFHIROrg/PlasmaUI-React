@@ -1,0 +1,1 @@
+export { AllergyIntoleranceView, IAllergyIntoleranceViewProps } from './AllergyIntoleranceView';

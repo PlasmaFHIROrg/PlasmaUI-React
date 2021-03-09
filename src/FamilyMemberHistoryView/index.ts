@@ -1,0 +1,1 @@
+export { FamilyMemberHistoryView, IFamilyMemberHistoryViewProps } from './FamilyMemberHistoryView';

@@ -1,0 +1,1 @@
+export { CodeableConceptView, ICodeableConceptViewProps } from './CodeableConceptView';
