@@ -1,1 +1,1 @@
-export { CodeableConceptView, ICodeableConceptViewProps } from './CodeableConceptView';
+export { CodeableConceptView, ICodeableConceptViewProps, CodeableConceptViewDisplayMode } from './CodeableConceptView';

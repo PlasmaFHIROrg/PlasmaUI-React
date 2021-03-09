@@ -1,6 +1,6 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react/types-6-0';
-import { CodeableConceptView, ICodeableConceptViewProps } from './CodeableConceptView';
+import { CodeableConceptView, ICodeableConceptViewProps, CodeableConceptViewDisplayMode } from './CodeableConceptView';
 
 const CodeableConceptData_1 = {
   "coding": [
@@ -34,6 +34,12 @@ const Template: Story<ICodeableConceptViewProps> = (args) => <CodeableConceptVie
 
 export const CodingArray = Template.bind({});
 CodingArray.args = { codeableConcept: CodeableConceptData_1 as any };
+
+export const CodingArrayInline = Template.bind({});
+CodingArrayInline.args = { 
+  codeableConcept: CodeableConceptData_1 as any,
+  displayMode: CodeableConceptViewDisplayMode.inline
+};
 
 export const SingleCoding = Template.bind({});
 SingleCoding.args = { codeableConcept: CodeableConceptData_2 as any };

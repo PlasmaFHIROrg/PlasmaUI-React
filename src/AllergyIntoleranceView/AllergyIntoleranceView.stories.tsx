@@ -12,4 +12,4 @@ export default {
 const Template: Story<IAllergyIntoleranceViewProps> = (args) => <AllergyIntoleranceView {...args} />;
 
 export const Example1 = Template.bind({});
-Example1.args = { allergyIntolerance: AllergyIntolerance as any };
+Example1.args = { allergyIntolerance: AllergyIntoleranceData as any };
